@@ -1,0 +1,49 @@
+.body-text{
+    color: #212121;
+}
+
+.logo{
+    font-family: Raleway;
+    font-size: 26px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo > span{
+    color: #2196F3;
+}
+
+.link-nav a:focus,
+.link-nav a:hover,
+.link-nav a:active{
+color: #2196F3;
+}
+
+.contacts-link header,
+.feature-text p,
+.marketing-text h4{
+    color: #757575;
+}
+
+.title-text{
+    block-width: 1600px;
+    block-height: 600px;
+    font: Roboto;
+    font-size: 44px;
+    color: #FFFFFF;
+    background-color: #2F303A;
+
+}
+
+.address-text{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.address-text > a{
+    color: rgba(255, 255, 255, 0.6)
+}
+
+ul{
+    list-style: none;
+}
