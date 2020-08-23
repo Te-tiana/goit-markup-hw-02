@@ -21,10 +21,14 @@ a{
 
 /* Logo */
 .logo{
-    font-family: Raleway;
-    font-size: 26px;
-    color: #000000;
-    text-decoration: none;
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #000000;
+text-decoration: none;
 }
 
 .footer .logo{
@@ -51,8 +55,7 @@ a{
 }
 
 .site-nav a:focus,
-.site-nav a:hover,
-.site-nav a:active{
+.site-nav a:hover{
     color: var(--accent-color);
 }
 
@@ -71,7 +74,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -96,7 +99,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
@@ -104,9 +107,16 @@ background-color: #F5F4FA;
 border: transparent;
 }
 
+.button.current,
+.button:hover.
+.button:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
 .button.primary{
-font-weight: bold;
-font-size: 16px;
+font-weight: 900;
+font-size: 1.9;
 line-height: 30px;
 align-items: center;
 text-align: center;
