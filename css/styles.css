@@ -2,7 +2,8 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-bg-color: #E5E5E5;
+    --primary-bg-color:  #FFFFFF;
+    --primary-white-color: #FFFFFF;
 }
 
 body{
@@ -26,6 +27,9 @@ a{
     text-decoration: none;
 }
 
+.footer .logo{
+    color: var(--primary-white-color);
+}
 .logo > span{
     color: #2196F3;
 }
@@ -40,6 +44,10 @@ a{
 /* Навигация */
 .site-nav .link{
     color: var(--title-text-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
 }
 
 .site-nav a:focus,
@@ -59,10 +67,16 @@ a{
 
 /* Герой */
 .hero-title{
-    font: Roboto;
-    font-size: 44px;
-    color: #FFFFFF;
-    background-color: #2F303A;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+background-color: #2F303A;
 }
 
 h2,
@@ -70,26 +84,48 @@ h3{
     color: var(--title-text-color);
 }
 
-.section p{
+.section p,
+.section h4{
     font-family: Roboto;
     color: var(--primary-text-color);
 }
 
 /* Button */
 .button{
-    color: var(--title-text-color);
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+background-color: #F5F4FA;
+border: transparent;
+}
+
+.button.primary{
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--primary-white-color);
+background-color:var(--accent-color);
+}
+
+
+.section.team{
     background-color: #F5F4FA;
 }
 
-
-
-
-
-
-.address-text{
-    color: #FFFFFF;
+.footer{
     background-color: #000000;
 }
+.address-text{
+    color: var(--primary-white-color);
+    }
 
 .address-text > a{
     color: rgba(255, 255, 255, 0.6)
