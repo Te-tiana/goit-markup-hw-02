@@ -1,7 +1,24 @@
-.body-text{
-    color: #212121;
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #E5E5E5;
 }
 
+body{
+    color: var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Logo */
 .logo{
     font-family: Raleway;
     font-size: 26px;
@@ -13,27 +30,61 @@
     color: #2196F3;
 }
 
-.link-nav a:focus,
-.link-nav a:hover,
-.link-nav a:active{
-color: #2196F3;
+.logo:hover,
+.logo>span:hover,
+.logo:focus,
+.logo>span:focus{
+    color: var(--primary-text-color);
 }
 
-.contacts-link header,
-.feature-text p,
-.marketing-text h4{
-    color: #757575;
+/* Навигация */
+.site-nav .link{
+    color: var(--title-text-color);
 }
 
-.title-text{
-    block-width: 1600px;
-    block-height: 600px;
+.site-nav a:focus,
+.site-nav a:hover,
+.site-nav a:active{
+    color: var(--accent-color);
+}
+
+.contact-link a{
+    color: var(--primary-text-color);
+}
+.contact-link a:hover,
+.contact-link a:focus,
+.contact-link a:active{
+    color: var(--accent-color);
+}
+
+/* Герой */
+.hero-title{
     font: Roboto;
     font-size: 44px;
     color: #FFFFFF;
     background-color: #2F303A;
-
 }
+
+h2,
+h3{
+    color: var(--title-text-color);
+}
+
+.section p{
+    font-family: Roboto;
+    color: var(--primary-text-color);
+}
+
+/* Button */
+.button{
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+
+
+
+
 
 .address-text{
     color: #FFFFFF;
@@ -44,6 +95,3 @@ color: #2196F3;
     color: rgba(255, 255, 255, 0.6)
 }
 
-ul{
-    list-style: none;
-}
