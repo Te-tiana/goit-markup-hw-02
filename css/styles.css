@@ -108,7 +108,8 @@ background-color: var(--black-background-color);
 .title {
     font-weight: 700;
     line-height: 1.2;
-    text-align: center;    
+    text-align: center;
+    font-style: 400;    
 
     color: var(--title-text-color);
 }
@@ -118,7 +119,6 @@ background-color: var(--black-background-color);
 line-height: 1.5;
 text-transform: uppercase;
 text-align: left;
-
 
 }
 
@@ -131,6 +131,7 @@ text-align: left;
 .title.team {
     font-size: 16px;
     font-weight: 500;
+    font-style: 400;
 }
 
 .team-job {
