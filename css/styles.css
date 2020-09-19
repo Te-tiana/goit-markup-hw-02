@@ -32,7 +32,8 @@ ul
 .contact-link,
 .button.primary,
 .image-projects,
-.image-team {
+.image-team,
+.portfolio-image {
     text-decoration: none;
 }
 
