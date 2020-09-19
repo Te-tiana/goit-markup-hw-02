@@ -20,11 +20,19 @@ body {
     letter-spacing: 0.03em;
 }
 
-ul {
+ul
+ {
     list-style: none;
 }
 
-a {
+/* a */
+.logo,
+.link,
+.link.current,
+.contact-link,
+.button.primary,
+.image-projects,
+.image-team {
     text-decoration: none;
 }
 
